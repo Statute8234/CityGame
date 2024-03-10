@@ -1,4 +1,4 @@
-# GUUF_IT_DepartmentApp
+# CityGame
 
 This code is a procedural 3D environment generation script using the Ursina game engine. It imports modules, defines a class for ground tiles, generates a random path for a river, stores ground tiles in a list, generates terrain using Perlin noise, and generates buildings on top of the ground.
 
