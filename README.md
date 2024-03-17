@@ -7,7 +7,7 @@ This code is a procedural 3D environment generation script using the Ursina game
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 8/10](#Rating)
 
 # About
 
@@ -23,5 +23,6 @@ ursina, ursina.shaders, perlin_noise, random, sys, pathfinding.core.grid, pathfi
 
 # Rating
 
-The user authentication system uses the Kivy framework for cross-platform applications, providing a user-friendly interface and clear separation of concerns. It includes error handling and input validation for data integrity and security. However, some parts of the code could be optimized for readability and maintainability, and the app's functionality could be enhanced with two-factor authentication (2FA). Some commented-out sections of code may clutter the file and should be removed or properly documented for future use. More detailed comments and documentation could aid understanding and future development.
-The code effectively generates a basic 3D environment, but there are areas for improvement, including adding comments for better readability and potentially optimizing the river path generation for more natural-looking results.
+The code is well-structured and implements features such as generating terrain, building structures, and finding paths using the A* algorithm. It is easy to read and understand, with clear function and variable names. The code is modular, promoting reusability and maintainability. It leverages libraries like Ursina for 3D graphics, PerlinNoise for terrain generation, and pathfinding for pathfinding algorithms.
+However, there are some cons to the code. The `riverPath` variable should be removed to avoid confusion. Adding comments to complex sections, especially the pathfinding algorithm and terrain generation, would improve understanding for future readers or maintainers. There is no error handling mechanism implemented, which could lead to crashes or unexpected behavior if input parameters are invalid or operations fail.
+The `BuildBuilding` function may have an issue with building placement, as it selects random coordinates but doesn't check if the position is suitable for placing a building. To improve, the code should remove the `riverPath` variable, add comments, implement error handling mechanisms, and ensure building placement validation.
