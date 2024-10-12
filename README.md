@@ -2,6 +2,11 @@
 
 This code is a procedural 3D environment generation script using the Ursina game engine. It imports modules, defines a class for ground tiles, generates a random path for a river, stores ground tiles in a list, generates terrain using Perlin noise, and generates buildings on top of the ground.
 
+[![Static Badge](https://img.shields.io/badge/ursina-red)](https://pypi.org/project/ursina/)
+[![Static Badge](https://img.shields.io/badge/perlin_noise-gray)](https://pypi.org/project/perlin_noise/)
+[![Static Badge](https://img.shields.io/badge/random,-purple)](https://pypi.org/project/random/)
+[![Static Badge](https://img.shields.io/badge/pathfinding-yellow)](https://pypi.org/project/pathfinding/)
+
 ## Table of Contents
 
 - [About](#about)
